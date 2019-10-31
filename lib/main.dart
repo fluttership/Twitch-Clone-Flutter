@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:transparent_image/transparent_image.dart';
+import 'package:twitch_clone/controller/categories.dart';
 import 'package:twitch_clone/controller/channel.dart';
 import 'package:twitch_clone/controller/live.dart';
 import 'package:twitch_clone/ui/browse.dart';
@@ -85,6 +86,9 @@ class _TwitchCloneState extends State<TwitchClone> {
         ),
         ChangeNotifierProvider<ChannelController>.value(
           value: ChannelController(),
+        ),
+        ChangeNotifierProvider<CategoriesController>.value(
+          value: CategoriesController(),
         )
       ],
       child: MaterialApp(
@@ -103,36 +107,34 @@ class _TwitchCloneState extends State<TwitchClone> {
             ],
           ),
           bottomNavigationBar: BottomNavigationBar(
+            selectedItemColor: Constants.twitchMainColor,
             backgroundColor:
-                _isDark ? Constants.darkAccent : Constants.lightPrimary,
+                _isDark ? Constants.darkPrimary : Constants.lightPrimary,
             currentIndex: _selectedIndex,
-            items: [
+            items: <BottomNavigationBarItem>[
               BottomNavigationBarItem(
-                icon: Icon(Icons.favorite,
-                    color: Constants.twitchMainColor),
+                icon: Icon(Icons.favorite),
                 title: Text(
                   'Following',
-                  style: TextStyle(
-                      fontFamily: 'Biotif Book',
-                      color: Constants.twitchMainColor),
+                  style: TextStyle(fontFamily: 'Biotif Book'),
                 ),
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.explore, color: Constants.twitchMainColor),
+                icon: Icon(Icons.explore),
                 title: Text(
                   'Discover',
                   style: TextStyle(
-                      fontFamily: 'Biotif Book',
-                      color: Constants.twitchMainColor),
+                    fontFamily: 'Biotif Book',
+                  ),
                 ),
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.filter_none, color: Constants.twitchMainColor),
+                icon: Icon(Icons.filter_none),
                 title: Text(
                   'Browse',
                   style: TextStyle(
-                      fontFamily: 'Biotif Book',
-                      color: Constants.twitchMainColor),
+                    fontFamily: 'Biotif Book',
+                  ),
                 ),
               )
             ],
