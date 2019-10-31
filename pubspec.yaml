@@ -72,6 +72,9 @@ flutter:
     - family: Biotif Book
       fonts:
         - asset: assets/fonts/Biotif_Book.ttf
+    - family: Eina
+      fonts:
+        - asset: assets/fonts/Eina.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

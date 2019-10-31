@@ -38,6 +38,7 @@ class _FollowingTileState extends State<FollowingTile> {
   Widget _liveImage() {
     return Container(
       width: 120.0,
+      height: 70.0,
       child: Stack(
         children: <Widget>[
           ClipRRect(
@@ -86,7 +87,7 @@ class _FollowingTileState extends State<FollowingTile> {
         ),
         Text(
           widget.model.user,
-          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16.0),
+          style: TextStyle(fontFamily: 'Eina', fontSize: 16.0),
         )
       ],
     );

@@ -14,7 +14,7 @@ class _DiscoverState extends State<Discover> {
     CategoriesController controller =
         Provider.of<CategoriesController>(context);
     return Container(
-      height: MediaQuery.of(context).size.height / 2,
+      height: 260.0,
       child: ListView.builder(
         primary: false,
         shrinkWrap: true,

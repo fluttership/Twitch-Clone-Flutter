@@ -32,7 +32,7 @@ class _ChannelTileState extends State<ChannelTile> {
         ),
         title: Text(
           widget.model.user,
-          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16.0),
+          style: TextStyle(fontFamily: 'Eina', fontSize: 16.0),
         ),
         subtitle: Text(
           widget.model.newVideos <= 1
