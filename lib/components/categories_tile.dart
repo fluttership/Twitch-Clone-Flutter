@@ -31,13 +31,15 @@ class _CategorieTileState extends State<CategorieTile> {
   }
 
   Widget _categoryName() {
-    return Padding(
-      padding: const EdgeInsets.only(top: 3.0),
-      child: Text(
-        widget.model.name.length > 15
-            ? '${widget.model.name.substring(0, 15)} ...'
-            : widget.model.name,
-        style: TextStyle(fontFamily: 'Eina', fontSize: 14.0),
+    return Flexible(
+      child: Container(
+        width: 130.0,
+        padding: const EdgeInsets.only(right: 5.0),
+        child: Text(widget.model.name,
+            overflow: TextOverflow.fade,
+            maxLines: 1,
+            softWrap: false,
+            style: TextStyle(fontFamily: 'Eina', fontSize: 14.0)),
       ),
     );
   }

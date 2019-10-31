@@ -4,16 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
 import 'package:twitch_clone/model/live.dart';
 
-class FollowingTile extends StatefulWidget {
+class LiveTileSmall extends StatefulWidget {
   final LiveModel model;
 
-  FollowingTile({Key key, @required this.model}) : super(key: key);
+  LiveTileSmall({Key key, @required this.model}) : super(key: key);
 
   @override
   _FollowingTileState createState() => _FollowingTileState();
 }
 
-class _FollowingTileState extends State<FollowingTile> {
+class _FollowingTileState extends State<LiveTileSmall> {
   String _showViews() {
     return widget.model.views < 1000
         ? widget.model.views.toString()
@@ -127,14 +127,14 @@ class _FollowingTileState extends State<FollowingTile> {
 
   Widget _tagText(String text) {
     return Padding(
-      padding: EdgeInsets.only(left: 5.0),
+      padding: const EdgeInsets.only(left: 5.0),
       child: ClipRRect(
         borderRadius: BorderRadius.all(Radius.circular(15)),
         child: Container(
           color: Colors.grey[300],
           child: Center(
             child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 10.0),
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
               child: Text(
                 text,
                 style: TextStyle(fontSize: 12.0, fontFamily: 'Biotif Book'),
@@ -150,7 +150,7 @@ class _FollowingTileState extends State<FollowingTile> {
   Widget build(BuildContext context) {
     print('Quantidade: ${widget.model.tags.length}');
     return Padding(
-      padding: EdgeInsets.only(right: 20.0, top: 15.0),
+      padding: const EdgeInsets.only(right: 20.0, top: 15.0),
       child: InkWell(
         onTap: () {},
         child: Row(
@@ -159,7 +159,7 @@ class _FollowingTileState extends State<FollowingTile> {
             _liveImage(),
             SizedBox(width: 10.0),
             Padding(
-              padding: EdgeInsets.only(top: 5.0),
+              padding: const EdgeInsets.only(top: 5.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[

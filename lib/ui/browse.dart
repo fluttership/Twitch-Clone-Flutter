@@ -9,10 +9,10 @@ class _BrowseState extends State<Browse> {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      padding: EdgeInsets.only(left: 15.0),
+      padding: const EdgeInsets.only(left: 15.0),
       children: <Widget>[
         Padding(
-          padding: EdgeInsets.only(right: 20.0, top: 15.0),
+          padding: const EdgeInsets.only(right: 20.0, top: 15.0),
           child: Text(
             'Browse',
             style: TextStyle(

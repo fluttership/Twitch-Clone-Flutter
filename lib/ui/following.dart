@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:twitch_clone/components/channel_tile.dart';
-import 'package:twitch_clone/components/following_tile.dart';
+import 'package:twitch_clone/components/channel_tile_medium.dart';
+import 'package:twitch_clone/components/live_tile_small.dart';
 import 'package:twitch_clone/controller/channel.dart';
 import 'package:twitch_clone/controller/live.dart';
 
@@ -18,7 +18,7 @@ class _FollowingState extends State<Following> {
       shrinkWrap: true,
       itemCount: controller.lives.length,
       itemBuilder: (context, index) {
-        return FollowingTile(model: controller.lives[index]);
+        return LiveTileSmall(model: controller.lives[index]);
       },
     );
   }
@@ -30,7 +30,7 @@ class _FollowingState extends State<Following> {
       shrinkWrap: true,
       itemCount: controller.channel.length,
       itemBuilder: (context, index) {
-        return ChannelTile(model: controller.channel[index]);
+        return ChannelTileSmall(model: controller.channel[index]);
       },
     );
   }
@@ -38,10 +38,10 @@ class _FollowingState extends State<Following> {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      padding: EdgeInsets.only(left: 15.0),
+      padding: const EdgeInsets.only(left: 15.0),
       children: <Widget>[
         Padding(
-          padding: EdgeInsets.only(right: 20.0, top: 15.0),
+          padding: const EdgeInsets.only(right: 20.0, top: 15.0),
           child: Text(
             'Following',
             style: TextStyle(
@@ -51,8 +51,8 @@ class _FollowingState extends State<Following> {
           ),
         ),
         Padding(
-          padding: EdgeInsets.symmetric(vertical: 20.0),
-          child: Text('LIVE CHANNELS'),
+          padding: const EdgeInsets.symmetric(vertical: 20.0),
+          child: Text('LIVE CHANNELS', style: TextStyle(fontFamily: 'Eina')),
         ),
         Consumer<LiveController>(
           builder: (context, liveController, widget) {
@@ -60,8 +60,8 @@ class _FollowingState extends State<Following> {
           },
         ),
         Padding(
-          padding: EdgeInsets.symmetric(vertical: 20.0),
-          child: Text('OFFLINE CHANNELS'),
+          padding: const EdgeInsets.symmetric(vertical: 20.0),
+          child: Text('OFFLINE CHANNELS', style: TextStyle(fontFamily: 'Eina'),),
         ),
         Consumer<ChannelController>(
           builder: (context, channelController, widget) {

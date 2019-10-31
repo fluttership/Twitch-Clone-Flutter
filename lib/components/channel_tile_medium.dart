@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
 import 'package:twitch_clone/model/channel.dart';
 
-class ChannelTile extends StatefulWidget {
+class ChannelTileSmall extends StatefulWidget {
   final ChannelModel model;
 
-  ChannelTile({Key key, @required this.model}) : super(key: key);
+  ChannelTileSmall({Key key, @required this.model}) : super(key: key);
 
   @override
   _ChannelTileState createState() => _ChannelTileState();
 }
 
-class _ChannelTileState extends State<ChannelTile> {
+class _ChannelTileState extends State<ChannelTileSmall> {
   @override
   Widget build(BuildContext context) {
     return Padding(
