@@ -60,7 +60,7 @@ class _DiscoverState extends State<Discover> {
   Widget _mediumLiveList() {
     LiveController controller = Provider.of<LiveController>(context);
     return Container(
-      height: 250.0,
+      height: 330.0,
       child: ListView.builder(
         primary: false,
         shrinkWrap: true,
