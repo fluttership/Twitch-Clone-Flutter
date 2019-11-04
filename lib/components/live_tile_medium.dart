@@ -4,7 +4,10 @@ import 'package:twitch_clone/model/live.dart';
 
 class LiveTileMedium extends StatefulWidget {
   final LiveModel model;
-  LiveTileMedium({Key key, @required this.model}) : super(key: key);
+  LiveTileMedium(
+      {Key key,
+      @required this.model})
+      : super(key: key);
 
   @override
   _LiveTileMediumState createState() => _LiveTileMediumState();
@@ -117,10 +120,8 @@ class _LiveTileMediumState extends State<LiveTileMedium> {
           child: Center(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 7.0),
-              child: Text(text, style: TextStyle(
-                fontSize: 12.0,
-                fontFamily: 'Biotif Book'
-              )),
+              child: Text(text,
+                  style: TextStyle(fontSize: 12.0, fontFamily: 'Biotif Book')),
             ),
           ),
         ),
@@ -175,19 +176,19 @@ class _LiveTileMediumState extends State<LiveTileMedium> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 5.0, bottom: 5.0),
-      child: Container(
-        width: 370.0,
-        child: InkWell(
-          onTap: () {},
-          child: Padding(
-            padding: const EdgeInsets.only(right: 16.0),
-            child: Column(
-              children: <Widget>[_headerLive(), _bottomLive()],
+        padding: const EdgeInsets.only(top: 5.0, bottom: 5.0),
+        child: Container(
+          width: 370.0,
+          child: InkWell(
+            onTap: () {},
+            child: Padding(
+              padding: const EdgeInsets.only(right: 16.0),
+              child: Column(
+                children: <Widget>[_headerLive(), _bottomLive()],
+              ),
             ),
           ),
         ),
-      ),
-    );
+      );
   }
 }

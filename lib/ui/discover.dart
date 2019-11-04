@@ -12,6 +12,9 @@ class Discover extends StatefulWidget {
 }
 
 class _DiscoverState extends State<Discover> {
+  int _currentPage = 0;
+  PageController _controllerLiveMedium;
+
   Widget _titleDiscover() {
     return Padding(
       padding: const EdgeInsets.only(right: 20.0, top: 15.0),
@@ -30,10 +33,14 @@ class _DiscoverState extends State<Discover> {
       padding: const EdgeInsets.symmetric(vertical: 20.0),
       child: Row(
         children: <Widget>[
-          Text('RECOMMENDED ', style: TextStyle(fontFamily: 'Eina'),),
+          Text(
+            'RECOMMENDED ',
+            style: TextStyle(fontFamily: 'Eina'),
+          ),
           Text(
             'CATEGORIES',
-            style: TextStyle(color: Constants.twitchMainColor, fontFamily: 'Eina'),
+            style:
+                TextStyle(color: Constants.twitchMainColor, fontFamily: 'Eina'),
           )
         ],
       ),
@@ -61,13 +68,17 @@ class _DiscoverState extends State<Discover> {
     LiveController controller = Provider.of<LiveController>(context);
     return Container(
       height: 330.0,
-      child: ListView.builder(
-        primary: false,
-        shrinkWrap: true,
-        scrollDirection: Axis.horizontal,
+      child: PageView.builder(
+        onPageChanged: (int index) {
+          setState(() {
+            _currentPage = index;
+          });
+        },
+        controller: _controllerLiveMedium,
         itemCount: controller.lives.length,
         itemBuilder: (context, index) {
-          return LiveTileMedium(model: controller.lives[index]);
+          return LiveTileMedium(
+              model: controller.lives[index]);
         },
       ),
     );
@@ -76,8 +87,19 @@ class _DiscoverState extends State<Discover> {
   Widget _genericHeader(String text) {
     return Padding(
       padding: const EdgeInsets.only(top: 25.0, bottom: 10.0),
-      child: Text(text, style: TextStyle(fontFamily: 'Eina'),),
+      child: Text(
+        text,
+        style: TextStyle(fontFamily: 'Eina'),
+      ),
     );
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _controllerLiveMedium =
+        PageController(initialPage: 0, keepPage: false, viewportFraction: 0.85);
   }
 
   @override
