@@ -5,9 +5,9 @@ import 'package:transparent_image/transparent_image.dart';
 import 'package:twitch_clone/controller/categories.dart';
 import 'package:twitch_clone/controller/channel.dart';
 import 'package:twitch_clone/controller/live.dart';
-import 'package:twitch_clone/ui/browse.dart';
-import 'package:twitch_clone/ui/discover.dart';
-import 'package:twitch_clone/ui/following.dart';
+import 'package:twitch_clone/ui/browse/browse.dart';
+import 'package:twitch_clone/ui/discover/discover.dart';
+import 'package:twitch_clone/ui/following/following.dart';
 import 'package:twitch_clone/utils/constants.dart';
 import 'package:twitch_clone/utils/custom_icons.dart';
 
@@ -19,7 +19,6 @@ class TwitchClone extends StatefulWidget {
 }
 
 class _TwitchCloneState extends State<TwitchClone> {
-  bool _isDark = false;
   int _selectedIndex = 0;
   static const following = 0;
   static const discover = 1;
@@ -32,8 +31,8 @@ class _TwitchCloneState extends State<TwitchClone> {
     SystemChrome.setEnabledSystemUIOverlays(SystemUiOverlay.values);
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
         statusBarColor:
-            _isDark ? Constants.darkPrimary : Constants.lightPrimary,
-        statusBarBrightness: _isDark ? Brightness.dark : Brightness.light));
+            Constants.isDark ? Constants.darkPrimary : Constants.lightPrimary,
+        statusBarBrightness: Constants.isDark ? Brightness.dark : Brightness.light));
   }
 
   Widget _actionButtons(IconData icon, Function function) {
@@ -94,7 +93,7 @@ class _TwitchCloneState extends State<TwitchClone> {
       child: MaterialApp(
         title: Constants.appName,
         debugShowCheckedModeBanner: false,
-        theme: _isDark ? Constants.darkTheme : Constants.lightTheme,
+        theme: Constants.isDark ? Constants.darkTheme : Constants.lightTheme,
         home: Scaffold(
           appBar: AppBar(
             elevation: 0.0,
@@ -109,7 +108,7 @@ class _TwitchCloneState extends State<TwitchClone> {
           bottomNavigationBar: BottomNavigationBar(
             selectedItemColor: Constants.twitchMainColor,
             backgroundColor:
-                _isDark ? Constants.darkPrimary : Constants.lightPrimary,
+                Constants.isDark ? Constants.darkPrimary : Constants.lightPrimary,
             currentIndex: _selectedIndex,
             items: <BottomNavigationBarItem>[
               BottomNavigationBarItem(

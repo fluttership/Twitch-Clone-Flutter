@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
+import 'package:twitch_clone/components/text_tag.dart';
 import 'package:twitch_clone/model/live.dart';
 
 class LiveTileSmall extends StatefulWidget {
@@ -119,29 +120,8 @@ class _FollowingTileState extends State<LiveTileSmall> {
         scrollDirection: Axis.horizontal,
         itemCount: widget.model.tags.length,
         itemBuilder: (BuildContext context, int index) {
-          return _tagText(widget.model.tags[index]);
+          return TextTag(text: widget.model.tags[index]);
         },
-      ),
-    );
-  }
-
-  Widget _tagText(String text) {
-    return Padding(
-      padding: const EdgeInsets.only(left: 5.0),
-      child: ClipRRect(
-        borderRadius: BorderRadius.all(Radius.circular(15)),
-        child: Container(
-          color: Colors.grey[300],
-          child: Center(
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10.0),
-              child: Text(
-                text,
-                style: TextStyle(fontSize: 12.0, fontFamily: 'Biotif Book'),
-              ),
-            ),
-          ),
-        ),
       ),
     );
   }

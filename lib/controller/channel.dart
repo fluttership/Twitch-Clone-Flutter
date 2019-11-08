@@ -25,7 +25,7 @@ class ChannelController extends ChangeNotifier {
     ),
     ChannelModel(
       user: 'pimpimenta',
-      image: 'https://pbs.twimg.com/profile_images/1185255275579793408/pNc7WjEi_400x400.jpg',
+      image: 'https://i.imgur.com/uxbpr9c.png',
       newVideos: 0
     ),
     ChannelModel(

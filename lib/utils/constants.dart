@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-class Constants{
+
+class Constants {
+  static bool isDark = true;
 
   static String appName = "Twitch Clone";
-  static String profilePicture = 'https://www.picmonkey.com/blog/wp-content/uploads/2016/11/1-intro-photo-final.jpg';
+  static String profilePicture =
+      'https://static-cdn.jtvnw.net/jtv_user_pictures/e3aae6c9-f9f2-4138-960e-eb5408176f99-profile_image-300x300.jpg';
 
   //Colors for theme
   static Color lightPrimary = Color(0xfffcfcff);
@@ -13,12 +16,12 @@ class Constants{
   static Color darkBG = Colors.black;
   static Color ratingBG = Colors.yellow[600];
   static Color badgeColor = Color(0xfd71e18);
-  static Color twitchMainColor = Color.fromARGB(255, 100, 65, 165);
+  static Color twitchMainColor = Color.fromARGB(255, 100, 65, 164);
 
   static ThemeData lightTheme = ThemeData(
     backgroundColor: lightBG,
     primaryColor: lightPrimary,
-    accentColor:  lightAccent,
+    accentColor: lightAccent,
     cursorColor: lightAccent,
     scaffoldBackgroundColor: lightBG,
     appBarTheme: AppBarTheme(
@@ -55,6 +58,4 @@ class Constants{
 //      ),
     ),
   );
-
-
 }

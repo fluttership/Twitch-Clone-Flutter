@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:twitch_clone/components/categories_tile.dart';
+import 'package:twitch_clone/components/categories_tile_medium.dart';
 import 'package:twitch_clone/components/live_tile_medium.dart';
 import 'package:twitch_clone/controller/categories.dart';
 import 'package:twitch_clone/controller/live.dart';
@@ -58,7 +58,7 @@ class _DiscoverState extends State<Discover> {
         scrollDirection: Axis.horizontal,
         itemCount: controller.categories.length,
         itemBuilder: (context, index) {
-          return CategorieTile(model: controller.categories[index]);
+          return CategorieTileMedium(model: controller.categories[index]);
         },
       ),
     );
@@ -77,8 +77,7 @@ class _DiscoverState extends State<Discover> {
         controller: _controllerLiveMedium,
         itemCount: controller.lives.length,
         itemBuilder: (context, index) {
-          return LiveTileMedium(
-              model: controller.lives[index]);
+          return LiveTileMedium(model: controller.lives[index]);
         },
       ),
     );
@@ -96,7 +95,6 @@ class _DiscoverState extends State<Discover> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _controllerLiveMedium =
         PageController(initialPage: 0, keepPage: false, viewportFraction: 0.85);

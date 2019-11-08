@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
+import 'package:twitch_clone/components/text_tag.dart';
 import 'package:twitch_clone/model/live.dart';
 
 class LiveTileMedium extends StatefulWidget {
@@ -110,25 +111,6 @@ class _LiveTileMediumState extends State<LiveTileMedium> {
     );
   }
 
-  Widget _tagText(text) {
-    return Padding(
-      padding: const EdgeInsets.only(left: 5.0),
-      child: ClipRRect(
-        borderRadius: BorderRadius.all(Radius.circular(15.0)),
-        child: Container(
-          color: Colors.grey[300],
-          child: Center(
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 7.0),
-              child: Text(text,
-                  style: TextStyle(fontSize: 12.0, fontFamily: 'Biotif Book')),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
   Widget _tagsLive() {
     return Padding(
       padding: const EdgeInsets.only(top: 10.0),
@@ -140,7 +122,7 @@ class _LiveTileMediumState extends State<LiveTileMedium> {
           scrollDirection: Axis.horizontal,
           itemCount: widget.model.tags.length,
           itemBuilder: (BuildContext context, int index) {
-            return _tagText(widget.model.tags[index]);
+            return TextTag(text: widget.model.tags[index]);
           },
         ),
       ),
@@ -182,7 +164,7 @@ class _LiveTileMediumState extends State<LiveTileMedium> {
           child: InkWell(
             onTap: () {},
             child: Padding(
-              padding: const EdgeInsets.only(right: 16.0),
+              padding: const EdgeInsets.only(right: 18.0, left: 8.0),
               child: Column(
                 children: <Widget>[_headerLive(), _bottomLive()],
               ),

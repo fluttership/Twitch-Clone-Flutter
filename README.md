@@ -1,16 +1,38 @@
-# twitch_clone
+# 🖥 Twitch Clone [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) <a href="https://github.com/fluttership"><img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" /></a>
 
-A new Flutter project.
+Representação do aplicativo mobile da plataforma de stream <a href="https://www.twitch.tv/. ">Twitch.TV ©</a>. <b>Este app é apenas para estudos, sem nenhum fim lucrativo</b>.
 
-## Getting Started
+⭐ Dê uma estrela no repositorio para que possamos cada vez mais ter contribuições⭐ 
 
-This project is a starting point for a Flutter application.
+## 📸 ScreenShots
 
-A few resources to get you started if this is your first Flutter project:
+| Following - Light | Following - Dark |
+|------|-------|
+|<img src="https://i.imgur.com/sVZ3KBd.jpg" width="400">|<img src="https://i.imgur.com/8njoU3t.jpg" width="400">|
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+| Discover - Light | Discover - Dark |
+|------|-------|
+|<img src="https://i.imgur.com/SNTT19g.jpg" width="400">|<img src="https://i.imgur.com/rQMvXAO.jpg" width="400">|
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Browse (Categories) - Light | Browse (Categories) - Dark |
+|------|-------|
+|<img src="https://i.imgur.com/EJLRuYc.jpg" width="400">|<img src="https://i.imgur.com/N7C2tgp.jpg" width="400">|
+
+| Browse (Live Channels) - Light | Browse (Live Channels) - Dark |
+|------|-------|
+| Em Breve | Em Breve |
+
+| Notifications - Light | Notifications - Dark |
+|------|-------|
+| Em Breve | Em Breve |
+
+## ✨ Requisitos
+* Qualquer sistema operacional (ie. MacOS X, Linux, Windows)
+* Qualquer IDE com Flutter SDK instalado (ie. IntelliJ, Android Studio, VSCode etc)
+* Um pouco de conhecimento em Dart e Fluter
+* Um cérebro para pensar hahah 🤓🤓
+
+## 🤓 Autores (s)
+<a href="https://github.com/rodrigordgfs">**Rodrigo "Shinoda" Viegas Rodrigues**</a>
+** Contribua para seu nome aparecer aqui*
+
