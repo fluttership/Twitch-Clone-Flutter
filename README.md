@@ -5,6 +5,7 @@ Representação do aplicativo mobile da plataforma de stream <a href="https://ww
 ⭐ Dê uma estrela no repositorio para que possamos cada vez mais ter contribuições⭐ 
 
 **Como usar Light Theme e Dark Theme**
+
 Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da variavel **isDark**
 
 ## 📸 ScreenShots
