@@ -24,6 +24,10 @@ Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da varia
 
 | Browse (Live Channels) - Light | Browse (Live Channels) - Dark |
 |------|-------|
+|<img src="https://i.imgur.com/JtbDDfV.jpg" width="400">|<img src="https://i.imgur.com/8kxRtAM.jpg" width="400">|
+
+| Categorie Contents - Light | Categorie Contents - Dark |
+|------|-------|
 | Em Breve | Em Breve |
 
 | Notifications - Light | Notifications - Dark |
@@ -37,6 +41,7 @@ Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da varia
 * Um cérebro para pensar hahah 🤓🤓
 
 ## 🤓 Autores (s)
-<a href="https://github.com/rodrigordgfs">**Rodrigo "Shinoda" Viegas Rodrigues**</a>
+<a href="https://github.com/rodrigordgfs">**Rodrigo "Shinoda" Rodrigues**</a>
+
 ** Contribua para seu nome aparecer aqui*
 
