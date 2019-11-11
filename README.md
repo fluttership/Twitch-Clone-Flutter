@@ -10,6 +10,8 @@ Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da varia
 
 ## 📸 ScreenShots
 
+<img src="https://i.imgur.com/DopDjwn.png"/>
+
 | Following - Light | Following - Dark |
 |------|-------|
 |<img src="https://i.imgur.com/sVZ3KBd.jpg" width="400">|<img src="https://i.imgur.com/8njoU3t.jpg" width="400">|

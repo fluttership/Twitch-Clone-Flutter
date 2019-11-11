@@ -10,8 +10,8 @@ class Constants {
   //Colors for theme
   static Color lightPrimary = Color(0xfffcfcff);
   static Color darkPrimary = Colors.black;
-  static Color lightAccent = Color(0xf6441a5);
-  static Color darkAccent = Color(0xffd44336);
+  static Color lightAccent = Color.fromARGB(255, 100, 65, 164);
+  static Color darkAccent = Color.fromARGB(255, 100, 65, 164);
   static Color lightBG = Color(0xfffcfcff);
   static Color darkBG = Colors.black;
   static Color ratingBG = Colors.yellow[600];
