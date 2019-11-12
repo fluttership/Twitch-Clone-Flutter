@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
 import 'package:twitch_clone/components/text_tag.dart';
 import 'package:twitch_clone/model/categories.dart';
+import 'package:twitch_clone/ui/browse/tabs/tab_live_channels.dart';
 import 'package:twitch_clone/utils/constants.dart';
 import 'package:twitch_clone/utils/custom_icons.dart';
 
@@ -89,7 +90,7 @@ class _CategoriesState extends State<Categories>
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('$_convertNumber(number) $text',
+        Text('${_convertNumber(number)} ${text}',
             style: TextStyle(
                 fontFamily: 'Shapiro',
                 fontSize: 15.0,
@@ -163,7 +164,7 @@ class _CategoriesState extends State<Categories>
             child: TabBarView(
               controller: _tabController,
               children: <Widget>[
-                Container(),
+                TabLiveChannels(),
                 Container(),
                 Container(),
               ],

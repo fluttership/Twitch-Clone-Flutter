@@ -6,11 +6,13 @@ class CategoriesModel {
   int views;
   int follow;
   List tags;
+  bool favorite = false;
 
   CategoriesModel(
       {@required this.name,
       @required this.image,
       @required this.views,
       @required this.tags,
-      this.follow});
+      this.follow,
+      this.favorite});
 }
