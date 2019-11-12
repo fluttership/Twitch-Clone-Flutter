@@ -75,19 +75,16 @@ class _CategorieTileMediumState extends State<CategorieTileMedium> {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () {},
-      child: Padding(
-        padding: const EdgeInsets.only(right: 5.0, left: 5.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            _categoryImage(),
-            _categoryName(),
-            _categoryViews(),
-            _categoryTags()
-          ],
-        ),
+    return Padding(
+      padding: const EdgeInsets.only(right: 5.0, left: 5.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          _categoryImage(),
+          _categoryName(),
+          _categoryViews(),
+          _categoryTags()
+        ],
       ),
     );
   }

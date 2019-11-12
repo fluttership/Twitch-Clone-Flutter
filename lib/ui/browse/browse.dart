@@ -40,10 +40,10 @@ class _BrowseState extends State<Browse> with SingleTickerProviderStateMixin {
           indicatorSize: TabBarIndicatorSize.label,
           tabs: <Widget>[
             Tab(
-              child: Text('Categories'),
+              child: Text('Categories', style: TextStyle(fontFamily: 'Eina')),
             ),
             Tab(
-              child: Text('Live Channels'),
+              child: Text('Live Channels', style: TextStyle(fontFamily: 'Eina')),
             )
           ],
         ),

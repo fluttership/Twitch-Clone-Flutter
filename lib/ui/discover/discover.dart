@@ -4,6 +4,7 @@ import 'package:twitch_clone/components/categories_tile_medium.dart';
 import 'package:twitch_clone/components/live_tile_medium.dart';
 import 'package:twitch_clone/controller/categories.dart';
 import 'package:twitch_clone/controller/live.dart';
+import 'package:twitch_clone/ui/categories/categories.dart';
 import 'package:twitch_clone/utils/constants.dart';
 
 class Discover extends StatefulWidget {
@@ -58,7 +59,14 @@ class _DiscoverState extends State<Discover> {
         scrollDirection: Axis.horizontal,
         itemCount: controller.categories.length,
         itemBuilder: (context, index) {
-          return CategorieTileMedium(model: controller.categories[index]);
+          return InkWell(
+              onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => Categories(
+                            model: controller.categories[index],
+                          ))),
+              child: CategorieTileMedium(model: controller.categories[index]));
         },
       ),
     );
