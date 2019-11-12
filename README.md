@@ -28,15 +28,15 @@ Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da varia
 |------|-------|
 |<img src="https://i.imgur.com/JtbDDfV.jpg" width="400">|<img src="https://i.imgur.com/8kxRtAM.jpg" width="400">|
 
-| Categorie (Live Channel) - Light | | Categorie (Live Channel) - Dark |
+| Categorie (Live Channel) - Light | Categorie (Live Channel) - Dark |
 |------|-------|
 |<img src="https://i.imgur.com/a4egf0U.jpg" width="400">|<img src="https://i.imgur.com/dBNZp9l.jpg" width="400">|
 
-| Categorie (Videos) - Light | | Categorie (Videos) - Dark |
+| Categorie (Videos) - Light | Categorie (Videos) - Dark |
 |------|-------|
 | Em Breve | Em Breve |
 
-| Categorie (Clips) - Light | | Categorie (Clips) - Dark |
+| Categorie (Clips) - Light | Categorie (Clips) - Dark |
 |------|-------|
 | Em Breve | Em Breve |
 
