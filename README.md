@@ -51,7 +51,7 @@ Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da varia
 * Um cérebro para pensar hahah 🤓🤓
 
 ## 🤓 Autores (s)
-<a href="https://github.com/rodrigordgfs">**Rodrigo "Shinoda" Rodrigues**</a>
+<a href="https://github.com/rodrigordgfs"><img src="https://avatars0.githubusercontent.com/u/32286127?s=400&u=f62040064f44db75b8b2302ae0180274ba608270&v=4" width=""50/></a>
 
 ** Contribua para seu nome aparecer aqui*
 
