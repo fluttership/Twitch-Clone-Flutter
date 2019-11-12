@@ -51,9 +51,138 @@ Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da varia
 * Um cérebro para pensar hahah 🤓🤓
 
 ## 🤓 Autores (s)
-<a href="https://github.com/rodrigordgfs">
-  <img src="https://avatars0.githubusercontent.com/u/32286127?s=400&u=f62040064f44db75b8b2302ae0180274ba608270&v=4" width="50" alt="Rodrigo 'Shinoda' Rodrigues"/>
-</a>
+<table>
+  <tr>
+    <td align="center">
+        <a href="https://github.com/rodrigordgfs">
+            <img src="https://avatars0.githubusercontent.com/u/32286127?s=400&u=f62040064f44db75b8b2302ae0180274ba608270&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Rodrigo Shinoda</b></sub>
+        </a>
+        <br/>
+        <a href="https://fluttership.com.br/" title="Flutership Administrator">✅</a>
+        <a href="https://github.com/rodrigordgfs" title="Developer">📱</a>
+    </td>
+    <!-- <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td> -->
+  </tr>
+  <!-- <tr>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/IAmSarthakVerma">
+            <img src="https://avatars3.githubusercontent.com/u/20480867?s=400&v=4" width="100px;" alt="Sarthak Verma"/>
+            <br/><sub><b>Sarthak Verma</b></sub>
+        </a>
+        <br/>
+        <a href="#content-iamsarthakverma" title="Content">🖋</a>
+        <a href="#ideas-iamsarthakverma" title="Ideas, Planning, & Feedback">🤔</a>
+    </td>
+  </tr> -->
+</table>
 
 ** Contribua para seu nome aparecer aqui*
 
