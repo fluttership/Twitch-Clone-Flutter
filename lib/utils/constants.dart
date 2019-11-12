@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Constants {
-  static bool isDark = false;
+  static bool isDark = true;
 
   static String appName = "Twitch Clone";
   static String profilePicture =
