@@ -24,6 +24,11 @@ class _TwitchCloneState extends State<TwitchClone> {
   static const discover = 1;
   static const browse = 2;
   Widget child;
+  final List<Widget> _children = [
+    Following(),
+    Discover(),
+    Browse()
+  ];
 
   @override
   void initState() {
@@ -33,6 +38,7 @@ class _TwitchCloneState extends State<TwitchClone> {
         statusBarColor:
             Constants.isDark ? Constants.darkPrimary : Constants.lightPrimary,
         statusBarBrightness: Constants.isDark ? Brightness.dark : Brightness.light));
+        _onTabTapped(_selectedIndex);
   }
 
   Widget _actionButtons(IconData icon, Function function) {
@@ -60,21 +66,11 @@ class _TwitchCloneState extends State<TwitchClone> {
     );
   }
 
-  void _selectPage(index) {
-    setState(() {
-      switch (index) {
-        case following:
-          child = Following();
-          break;
-        case discover:
-          child = Discover();
-          break;
-        case browse:
-          child = Browse();
-          break;
-      }
-    });
-  }
+  void _onTabTapped(int index) {
+   setState(() {
+     _selectedIndex = index;
+   });
+ }  
 
   @override
   Widget build(BuildContext context) {
@@ -137,13 +133,9 @@ class _TwitchCloneState extends State<TwitchClone> {
                 ),
               )
             ],
-            onTap: (index) {
-              _selectPage(index);
-            },
+            onTap: _onTabTapped
           ),
-          body: SizedBox.expand(
-            child: child,
-          ),
+          body: _children[_selectedIndex],
         ),
       ),
     );

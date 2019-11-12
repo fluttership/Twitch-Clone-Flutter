@@ -89,7 +89,7 @@ class _CategoriesState extends State<Categories>
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('${_convertNumber(number)} ${text}',
+        Text('$_convertNumber(number) $text',
             style: TextStyle(
                 fontFamily: 'Shapiro',
                 fontSize: 15.0,
