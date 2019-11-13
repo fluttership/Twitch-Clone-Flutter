@@ -3,6 +3,7 @@ import 'package:transparent_image/transparent_image.dart';
 import 'package:twitch_clone/components/text_tag.dart';
 import 'package:twitch_clone/model/categories.dart';
 import 'package:twitch_clone/ui/browse/tabs/tab_live_channels.dart';
+import 'package:twitch_clone/ui/categories/tabs/tab_clips.dart';
 import 'package:twitch_clone/ui/categories/tabs/tab_videos.dart';
 import 'package:twitch_clone/utils/constants.dart';
 import 'package:twitch_clone/utils/custom_icons.dart';
@@ -167,7 +168,7 @@ class _CategoriesState extends State<Categories>
               children: <Widget>[
                 TabLiveChannels(),
                 TabVideos(),
-                Container(),
+                TabClips(),
               ],
             ),
           )
