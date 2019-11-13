@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
 class Constants {
-  static bool isDark = false;
+  static bool isDark = true;
 
   static String appName = "Twitch Clone";
-  static String profilePicture =
-      'https://static-cdn.jtvnw.net/jtv_user_pictures/e3aae6c9-f9f2-4138-960e-eb5408176f99-profile_image-300x300.jpg';
+  static String profilePicture = 'https://imgur.com/YWXOvSi.jpg';
 
   //Colors for theme
   static Color lightPrimary = Color(0xfffcfcff);
