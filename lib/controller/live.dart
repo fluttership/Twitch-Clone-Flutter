@@ -12,7 +12,9 @@ class LiveController extends ChangeNotifier {
         cover:
             'https://1290779820.rsc.cdn77.org/screenshots/league-of-legends-636764988260065305.jpg',
         tags: ['Moba', 'Multiplayer'],
-        views: 12145),
+        views: 12145,
+        date: '2019-10-01',
+        duration: '01:45:22'),
     LiveModel(
         user: 'pimpimenta',
         description: 'BIRI IRL AHAHAHAHAH',
@@ -21,7 +23,9 @@ class LiveController extends ChangeNotifier {
             'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM4NCRln1i8k8Y98kNXGXj_IZin-MESwxCRlUuxhxaSRomkXRI',
         cover: 'https://imgur.com/EapAOWe.jpg',
         tags: ['Portuguese'],
-        views: 2732),
+        views: 2732,
+        date: '2019-10-02',
+        duration: '01:45:22'),
     LiveModel(
         user: 'YoDa',
         description: 'Meczada na Stream do YoDa',
@@ -31,7 +35,9 @@ class LiveController extends ChangeNotifier {
         cover:
             'https://1290779820.rsc.cdn77.org/screenshots/league-of-legends-636764988260065305.jpg',
         tags: ['Moba', 'Multiplayer'],
-        views: 12145),
+        views: 12145,
+        date: '2019-10-03',
+        duration: '01:45:22'),
     LiveModel(
         user: 'pimpimenta',
         description: 'BIRI IRL AHAHAHAHAH',
@@ -40,7 +46,9 @@ class LiveController extends ChangeNotifier {
             'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM4NCRln1i8k8Y98kNXGXj_IZin-MESwxCRlUuxhxaSRomkXRI',
         cover: 'https://imgur.com/EapAOWe.jpg',
         tags: ['Portuguese'],
-        views: 2732),
+        views: 2732,
+        date: '2019-10-04',
+        duration: '01:45:22'),
     LiveModel(
         user: 'YoDa',
         description: 'Meczada na Stream do YoDa',
@@ -50,7 +58,9 @@ class LiveController extends ChangeNotifier {
         cover:
             'https://1290779820.rsc.cdn77.org/screenshots/league-of-legends-636764988260065305.jpg',
         tags: ['Moba', 'Multiplayer'],
-        views: 12145),
+        views: 12145,
+        date: '2019-10-05',
+        duration: '01:45:22'),
     LiveModel(
         user: 'pimpimenta',
         description: 'BIRI IRL AHAHAHAHAH',
@@ -59,7 +69,9 @@ class LiveController extends ChangeNotifier {
             'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM4NCRln1i8k8Y98kNXGXj_IZin-MESwxCRlUuxhxaSRomkXRI',
         cover: 'https://imgur.com/EapAOWe.jpg',
         tags: ['Portuguese'],
-        views: 2732),
+        views: 2732,
+        date: '2019-10-06',
+        duration: '01:45:22'),
     LiveModel(
         user: 'YoDa',
         description: 'Meczada na Stream do YoDa',
@@ -69,7 +81,9 @@ class LiveController extends ChangeNotifier {
         cover:
             'https://1290779820.rsc.cdn77.org/screenshots/league-of-legends-636764988260065305.jpg',
         tags: ['Moba', 'Multiplayer'],
-        views: 12145),
+        views: 12145,
+        date: '2019-10-07',
+        duration: '01:45:22'),
     LiveModel(
         user: 'pimpimenta',
         description: 'BIRI IRL AHAHAHAHAH',
@@ -78,7 +92,9 @@ class LiveController extends ChangeNotifier {
             'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM4NCRln1i8k8Y98kNXGXj_IZin-MESwxCRlUuxhxaSRomkXRI',
         cover: 'https://imgur.com/EapAOWe.jpg',
         tags: ['Portuguese'],
-        views: 2732),
+        views: 2732,
+        date: '2019-10-08',
+        duration: '01:45:22'),
     LiveModel(
         user: 'YoDa',
         description: 'Meczada na Stream do YoDa',
@@ -88,7 +104,9 @@ class LiveController extends ChangeNotifier {
         cover:
             'https://1290779820.rsc.cdn77.org/screenshots/league-of-legends-636764988260065305.jpg',
         tags: ['Moba', 'Multiplayer'],
-        views: 12145),
+        views: 12145,
+        date: '2019-10-09',
+        duration: '01:45:22'),
     LiveModel(
         user: 'pimpimenta',
         description: 'BIRI IRL AHAHAHAHAH',
@@ -97,7 +115,9 @@ class LiveController extends ChangeNotifier {
             'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM4NCRln1i8k8Y98kNXGXj_IZin-MESwxCRlUuxhxaSRomkXRI',
         cover: 'https://imgur.com/EapAOWe.jpg',
         tags: ['Portuguese'],
-        views: 2732),
+        views: 2732,
+        date: '2019-10-10',
+        duration: '01:45:22'),
     LiveModel(
         user: 'YoDa',
         description: 'Meczada na Stream do YoDa',
@@ -107,7 +127,9 @@ class LiveController extends ChangeNotifier {
         cover:
             'https://1290779820.rsc.cdn77.org/screenshots/league-of-legends-636764988260065305.jpg',
         tags: ['Moba', 'Multiplayer'],
-        views: 12145),
+        views: 12145,
+        date: '2019-10-11',
+        duration: '01:45:22'),
     LiveModel(
         user: 'pimpimenta',
         description: 'BIRI IRL AHAHAHAHAH',
@@ -116,7 +138,9 @@ class LiveController extends ChangeNotifier {
             'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM4NCRln1i8k8Y98kNXGXj_IZin-MESwxCRlUuxhxaSRomkXRI',
         cover: 'https://imgur.com/EapAOWe.jpg',
         tags: ['Portuguese'],
-        views: 2732),
+        views: 2732,
+        date: '2019-10-12',
+        duration: '01:45:22'),
     LiveModel(
         user: 'YoDa',
         description: 'Meczada na Stream do YoDa',
@@ -126,7 +150,9 @@ class LiveController extends ChangeNotifier {
         cover:
             'https://1290779820.rsc.cdn77.org/screenshots/league-of-legends-636764988260065305.jpg',
         tags: ['Moba', 'Multiplayer'],
-        views: 12145),
+        views: 12145,
+        date: '2019-10-14',
+        duration: '01:45:22'),
     LiveModel(
         user: 'pimpimenta',
         description: 'BIRI IRL AHAHAHAHAH',
@@ -135,6 +161,8 @@ class LiveController extends ChangeNotifier {
             'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM4NCRln1i8k8Y98kNXGXj_IZin-MESwxCRlUuxhxaSRomkXRI',
         cover: 'https://imgur.com/EapAOWe.jpg',
         tags: ['Portuguese'],
-        views: 2732)
+        views: 2732,
+        date: '2019-10-18',
+        duration: '01:45:22')
   ];
 }

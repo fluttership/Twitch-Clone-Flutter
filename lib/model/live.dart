@@ -8,6 +8,8 @@ class LiveModel {
   String userPicture;
   int views;
   List tags;
+  String date;
+  String duration;
 
   LiveModel(
       {@required this.user,
@@ -16,5 +18,7 @@ class LiveModel {
       @required this.cover,
       @required this.userPicture,
       @required this.views,
-      @required this.tags});
+      @required this.tags,
+      this.date,
+      this.duration});
 }

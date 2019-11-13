@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:twitch_clone/components/categories_tile_small.dart';
 import 'package:twitch_clone/controller/categories.dart';
+import 'package:twitch_clone/ui/categories/categories.dart';
 
 class TabCategories extends StatelessWidget {
   @override
@@ -10,14 +11,20 @@ class TabCategories extends StatelessWidget {
       CategoriesController controller =
           Provider.of<CategoriesController>(context);
       return ListView.builder(
-          primary: false,
-          shrinkWrap: true,
-          scrollDirection: Axis.vertical,
-          itemCount: controller.categories.length,
-          itemBuilder: (context, index) {
-            return CategoriesTileSmall(model: controller.categories[index]);
-          },
-        );
+        primary: false,
+        shrinkWrap: true,
+        scrollDirection: Axis.vertical,
+        itemCount: controller.categories.length,
+        itemBuilder: (context, index) {
+          return InkWell(
+              onTap: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) =>
+                          Categories(model: controller.categories[index]))),
+              child: CategoriesTileSmall(model: controller.categories[index]));
+        },
+      );
     }
 
     return ListView(

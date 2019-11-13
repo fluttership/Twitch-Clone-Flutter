@@ -78,14 +78,11 @@ class _CategoriesTileSmallState extends State<CategoriesTileSmall> {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () {},
-      child: Padding(
-        padding: const EdgeInsets.only(left: 20.0, top: 5.0, bottom: 5.0),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[_imageCover(), _infoCategorie()],
-        ),
+    return Padding(
+      padding: const EdgeInsets.only(left: 20.0, top: 5.0, bottom: 5.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[_imageCover(), _infoCategorie()],
       ),
     );
   }
