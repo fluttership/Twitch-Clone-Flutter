@@ -184,5 +184,4 @@ Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da varia
   </tr> -->
 </table>
 
-** Contribua para seu nome aparecer aqui*
-
+**Trabalhando em sua primeira Pull Request?** Você pode aprender como de forma *gratuita* [Como contribuir para um projeto Open Source no GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
