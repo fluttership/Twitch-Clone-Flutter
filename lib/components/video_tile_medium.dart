@@ -218,7 +218,7 @@ class _VideoTileMediumState extends State<VideoTileMedium> {
         child: InkWell(
           onTap: () {},
           child: Padding(
-            padding: const EdgeInsets.only(right: 18.0, left: 8.0),
+            padding: const EdgeInsets.only(left: 8.0, right: 8.0),
             child: Column(
               children: <Widget>[_headerLive(), _bottomLive()],
             ),
