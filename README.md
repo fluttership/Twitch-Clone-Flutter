@@ -1,4 +1,4 @@
-# 🖥 Twitch Clone [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) <a href="https://github.com/fluttership"><img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" /></a>
+# 🖥 Twitch Clone [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) <a href="https://github.com/fluttership"><img alt="Fluttership" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" /></a>
 
 Representação do aplicativo mobile da plataforma de stream <a href="https://www.twitch.tv/. ">Twitch.TV ©</a>. <b>Este app é apenas para estudos, sem nenhum fim lucrativo</b>.
 
