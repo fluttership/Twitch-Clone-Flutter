@@ -1,4 +1,4 @@
-# 🖥 Twitch Clone [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) <a href="https://github.com/fluttership"><img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" /></a>
+# 🖥 Twitch Clone [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) <a href="https://github.com/fluttership"><img alt="Fluttership" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" /></a>
 
 Representação do aplicativo mobile da plataforma de stream <a href="https://www.twitch.tv/. ">Twitch.TV ©</a>. <b>Este app é apenas para estudos, sem nenhum fim lucrativo</b>.
 
@@ -184,5 +184,4 @@ Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da varia
   </tr> -->
 </table>
 
-** Contribua para seu nome aparecer aqui*
-
+**Trabalhando em sua primeira Pull Request?** Você pode aprender como de forma *gratuita* [Como contribuir para um projeto Open Source no GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
