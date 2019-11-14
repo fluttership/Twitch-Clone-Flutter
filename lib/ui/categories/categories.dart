@@ -92,7 +92,13 @@ class _CategoriesState extends State<Categories>
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('${_convertNumber(number)} ${text}',
+        Text(_convertNumber(number),
+            style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Shapiro',
+                fontSize: 15.0,
+                color: Constants.isDark ? Colors.white : Colors.black)),
+        Text(' $text',
             style: TextStyle(
                 fontFamily: 'Shapiro',
                 fontSize: 15.0,
@@ -152,14 +158,10 @@ class _CategoriesState extends State<Categories>
             indicatorSize: TabBarIndicatorSize.label,
             tabs: <Widget>[
               Tab(
-                child: Text('Live Channels', style: TextStyle(fontFamily: 'Eina'))
-              ),
-              Tab(
-                child: Text('Videos', style: TextStyle(fontFamily: 'Eina'))
-              ),
-              Tab(
-                child: Text('Clips', style: TextStyle(fontFamily: 'Eina'))
-              )
+                  child: Text('Live Channels',
+                      style: TextStyle(fontFamily: 'Eina'))),
+              Tab(child: Text('Videos', style: TextStyle(fontFamily: 'Eina'))),
+              Tab(child: Text('Clips', style: TextStyle(fontFamily: 'Eina')))
             ],
           ),
           Expanded(
@@ -168,7 +170,7 @@ class _CategoriesState extends State<Categories>
               children: <Widget>[
                 TabLiveChannels(),
                 TabVideos(),
-                TabClips(),
+                TabClips(categorie: widget.model.name),
               ],
             ),
           )

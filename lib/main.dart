@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:transparent_image/transparent_image.dart';
 import 'package:twitch_clone/controller/categories.dart';
 import 'package:twitch_clone/controller/channel.dart';
+import 'package:twitch_clone/controller/clips.dart';
 import 'package:twitch_clone/controller/live.dart';
 import 'package:twitch_clone/ui/browse/browse.dart';
 import 'package:twitch_clone/ui/discover/discover.dart';
@@ -84,6 +85,9 @@ class _TwitchCloneState extends State<TwitchClone> {
         ),
         ChangeNotifierProvider<CategoriesController>.value(
           value: CategoriesController(),
+        ),
+        ChangeNotifierProvider<ClipsController>.value(
+          value: ClipsController(),
         )
       ],
       child: MaterialApp(
