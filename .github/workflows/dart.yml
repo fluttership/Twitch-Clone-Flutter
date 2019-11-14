@@ -11,8 +11,6 @@ jobs:
       image:  google/dart:latest
 
     steps:
+    - name: ESLint checks
+      uses: gimenete/eslint-action@1.0
     - uses: actions/checkout@v1
-    - name: Install dependencies
-      run: flutter pub get
-    - name: Run tests
-      run: flutter pub run test
