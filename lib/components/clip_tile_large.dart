@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
 import 'package:twitch_clone/model/clips.dart';
+import 'package:twitch_clone/utils/constants.dart';
 import 'package:twitch_clone/utils/custom_icons.dart';
 
 class ClipTileLarge extends StatefulWidget {
@@ -168,7 +169,7 @@ class _ClipTileLargeState extends State<ClipTileLarge> {
   Widget _actionButton(String text, Function function) {
     return MaterialButton(
       onPressed: function,
-      color: Colors.grey[600],
+      color: Constants.isDark ? Colors.grey[600] : Colors.grey[300],
       child: Text(text, style: TextStyle(fontFamily: 'Eina')),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10)

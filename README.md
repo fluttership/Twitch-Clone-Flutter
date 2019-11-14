@@ -38,7 +38,7 @@ Basta ir ate o arquivo ***lib/utils/constants.dart*** e alterar o valor da varia
 
 | Categorie (Clips) - Light | Categorie (Clips) - Dark |
 |------|-------|
-| Em Breve | Em Breve |
+|<img src="https://i.imgur.com/m6cJSDB.jpg" width="400">|<img src="https://i.imgur.com/b5AuyGD.jpg" width="400">|
 
 | Notifications - Light | Notifications - Dark |
 |------|-------|
